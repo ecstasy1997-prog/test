@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>개인 포트폴리오</title>
+  <title>사진 포트폴리오</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="홈으로 이동">
-        <span class="brand-mark">포</span>
-        <span>포트폴리오</span>
+        <span class="brand-mark">사</span>
+        <span>사진 포트폴리오</span>
       </a>
       <nav aria-label="주요 메뉴">
         <a href="#about">소개</a>
-        <a href="#skills">기술</a>
-        <a href="#projects">프로젝트</a>
-        <a href="#contact">연락</a>
+        <a href="#skills">촬영 분야</a>
+        <a href="#projects">갤러리</a>
+        <a href="#contact">예약 문의</a>
       </nav>
     </div>
   </header>
@@ -26,37 +26,19 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">프론트엔드 개발자 포트폴리오</p>
-          <h1>사용자 경험과 완성도를 함께 설계하는 개발자</h1>
-          <p class="subtitle">명확한 구조, 안정적인 상호작용, 정돈된 화면 구성을 바탕으로 신뢰감 있는 웹 경험을 만듭니다.</p>
+          <p class="eyebrow">사진으로 기록하는 포트폴리오</p>
+          <h1>순간의 분위기와 이야기를 선명하게 담습니다</h1>
+          <p class="subtitle">인물, 공간, 일상의 장면을 차분한 시선으로 바라보고 오래 남는 사진 결과물로 정리합니다.</p>
           <div class="hero-actions">
-            <a href="#contact" class="button">문의하기</a>
-            <a href="#projects" class="button button-secondary">프로젝트 보기</a>
+            <a href="#contact" class="button">촬영 문의하기</a>
+            <a href="#projects" class="button button-secondary">사진 보기</a>
           </div>
         </div>
-        <div class="hero-panel" aria-label="핵심 역량 요약">
-          <div class="panel-top">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="panel-content">
-            <p class="panel-label">핵심 역량</p>
-            <strong>웹 화면 개발</strong>
-            <div class="metric-list">
-              <div>
-                <span>화면 설계</span>
-                <b>92%</b>
-              </div>
-              <div>
-                <span>반응형 구현</span>
-                <b>95%</b>
-              </div>
-              <div>
-                <span>동적 기능</span>
-                <b>90%</b>
-              </div>
-            </div>
+        <div class="hero-panel photo-frame" aria-label="대표 사진 미리보기">
+          <img src="photo/download.jpg" alt="대표 포트폴리오 사진" />
+          <div class="photo-caption">
+            <p class="panel-label">대표 작업</p>
+            <strong>빛과 색감이 살아있는 사진</strong>
           </div>
         </div>
       </div>
@@ -65,21 +47,21 @@
     <section id="about" class="section container">
       <div class="section-heading">
         <p class="eyebrow">소개</p>
-        <h2>저를 소개합니다</h2>
+        <h2>사진에 담는 시선</h2>
       </div>
-      <p class="lead">저는 사용자의 흐름을 먼저 이해하고, 목적에 맞는 화면과 기능을 구현하는 프론트엔드 개발자입니다. 빠르게 배우고 실험하되, 결과물은 안정적이고 읽기 쉬운 코드로 남기는 것을 중요하게 생각합니다.</p>
+      <p class="lead">자연스러운 표정, 공간의 분위기, 장면이 가진 온도를 중요하게 생각합니다. 과하게 꾸미기보다 피사체가 가진 매력을 편안하게 드러내는 방향으로 촬영하고 보정합니다.</p>
       <div class="info-grid">
         <div>
-          <strong>학력</strong>
-          <p>컴퓨터공학 전공</p>
+          <strong>촬영 방향</strong>
+          <p>자연광과 색감을 살린 차분한 무드</p>
         </div>
         <div>
-          <strong>경험</strong>
-          <p>웹 개발, 화면 설계, 사용자 경험 개선 프로젝트 참여</p>
+          <strong>작업 과정</strong>
+          <p>촬영 기획, 현장 촬영, 색 보정, 결과물 전달</p>
         </div>
         <div>
-          <strong>관심 분야</strong>
-          <p>프론트엔드 구조 설계, 반응형 웹, 디자인 시스템</p>
+          <strong>추천 분야</strong>
+          <p>인물 사진, 프로필, 공간 사진, 일상 기록</p>
         </div>
       </div>
     </section>
@@ -87,51 +69,59 @@
     <section id="skills" class="section section-alt">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">보유 기술</p>
-          <h2>기술 스택</h2>
+          <p class="eyebrow">촬영 분야</p>
+          <h2>작업할 수 있는 사진</h2>
         </div>
         <div class="skills-grid">
-          <div class="skill-card"><strong>HTML5</strong><p>의미 있는 구조와 접근성을 고려한 마크업</p></div>
-          <div class="skill-card"><strong>CSS3</strong><p>반응형 레이아웃, 움직임 효과, 컴포넌트 스타일링</p></div>
-          <div class="skill-card"><strong>JavaScript</strong><p>사용자 흐름을 자연스럽게 만드는 클라이언트 기능</p></div>
-          <div class="skill-card"><strong>React</strong><p>재사용 가능한 화면 요소와 상태 기반 화면 구성</p></div>
-          <div class="skill-card"><strong>Git</strong><p>협업을 위한 버전 관리와 작업 기록 정리</p></div>
+          <div class="skill-card"><strong>인물 사진</strong><p>표정과 분위기가 자연스럽게 살아나는 프로필 촬영</p></div>
+          <div class="skill-card"><strong>공간 사진</strong><p>장소의 결, 빛, 구조가 잘 보이도록 담는 공간 촬영</p></div>
+          <div class="skill-card"><strong>제품 사진</strong><p>브랜드 이미지와 사용 장면을 고려한 제품 컷 구성</p></div>
+          <div class="skill-card"><strong>행사 기록</strong><p>중요한 순간과 현장의 흐름을 놓치지 않는 기록 촬영</p></div>
+          <div class="skill-card"><strong>색 보정</strong><p>사진의 분위기를 유지하면서 완성도를 높이는 후보정</p></div>
         </div>
       </div>
     </section>
 
     <section id="projects" class="section container">
       <div class="section-heading">
-        <p class="eyebrow">주요 작업</p>
-        <h2>프로젝트</h2>
+        <p class="eyebrow">갤러리</p>
+        <h2>사진 작업 예시</h2>
       </div>
-      <div class="projects-grid">
-        <article class="project-card">
-          <span class="project-tag">개인 작업</span>
-          <h3>포트폴리오 웹사이트</h3>
-          <p>반응형 레이아웃과 간결한 상호작용을 적용해 개인 역량을 명확히 전달하는 웹사이트입니다.</p>
+      <div class="projects-grid gallery-grid">
+        <article class="project-card gallery-card">
+          <div class="gallery-image"></div>
+          <span class="project-tag">인물</span>
+          <h3>자연스러운 프로필</h3>
+          <p>편안한 표정과 부드러운 빛을 중심으로 오래 사용할 수 있는 이미지를 만듭니다.</p>
         </article>
-        <article class="project-card">
-          <span class="project-tag">소개 페이지</span>
-          <h3>기업 소개 페이지</h3>
-          <p>브랜드 신뢰도를 높이는 블루톤 화면과 정보 중심 레이아웃으로 구성한 랜딩 페이지입니다.</p>
+        <article class="project-card gallery-card">
+          <div class="gallery-image gallery-image-alt"></div>
+          <span class="project-tag">공간</span>
+          <h3>분위기가 보이는 공간</h3>
+          <p>공간의 목적과 질감이 드러나도록 구도와 색감을 정리합니다.</p>
+        </article>
+        <article class="project-card gallery-card">
+          <div class="gallery-image gallery-image-soft"></div>
+          <span class="project-tag">기록</span>
+          <h3>일상의 장면 기록</h3>
+          <p>사소하지만 다시 보고 싶은 순간을 차분하고 선명하게 남깁니다.</p>
         </article>
       </div>
     </section>
 
     <section id="contact" class="section section-alt">
       <div class="container contact-card">
-        <p class="eyebrow">연락하기</p>
-        <h2>함께 만들고 싶은 웹 경험이 있다면 연락 주세요.</h2>
-        <p>프로젝트 방향을 함께 정리하고, 사용자가 편하게 느끼는 결과물로 구현하겠습니다.</p>
-        <a href="mailto:you@example.com" class="button">이메일 보내기</a>
+        <p class="eyebrow">예약 문의</p>
+        <h2>남기고 싶은 장면이 있다면 편하게 연락 주세요.</h2>
+        <p>촬영 목적, 원하는 분위기, 장소와 일정을 함께 정리해 가장 어울리는 촬영 방향을 제안하겠습니다.</p>
+        <a href="mailto:you@example.com" class="button">이메일로 문의하기</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 포트폴리오. 모든 권리 보유.</p>
+      <p>© 2026 사진 포트폴리오. 모든 권리 보유.</p>
     </div>
   </footer>
 
