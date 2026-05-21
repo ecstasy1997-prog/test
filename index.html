@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인 포트폴리오</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="홈으로 이동">
+        <span class="brand-mark">P</span>
+        <span>Portfolio</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#skills">기술</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Frontend Developer Portfolio</p>
+          <h1>사용자 경험과 완성도를 함께 설계하는 개발자</h1>
+          <p class="subtitle">명확한 구조, 안정적인 인터랙션, 정돈된 UI를 바탕으로 신뢰감 있는 웹 경험을 만듭니다.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="button">문의하기</a>
+            <a href="#projects" class="button button-secondary">프로젝트 보기</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="핵심 역량 요약">
+          <div class="panel-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="panel-content">
+            <p class="panel-label">Core Focus</p>
+            <strong>Web Development</strong>
+            <div class="metric-list">
+              <div>
+                <span>UI Design</span>
+                <b>92%</b>
+              </div>
+              <div>
+                <span>Responsive</span>
+                <b>95%</b>
+              </div>
+              <div>
+                <span>JavaScript</span>
+                <b>90%</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>소개</h2>
+      </div>
+      <p class="lead">저는 사용자의 흐름을 먼저 이해하고, 목적에 맞는 화면과 기능을 구현하는 프론트엔드 개발자입니다. 빠르게 배우고 실험하되, 결과물은 안정적이고 읽기 쉬운 코드로 남기는 것을 중요하게 생각합니다.</p>
+      <div class="info-grid">
+        <div>
+          <strong>학력</strong>
+          <p>컴퓨터공학 전공</p>
+        </div>
+        <div>
+          <strong>경험</strong>
+          <p>웹 개발, UI/UX 프로젝트 참여</p>
+        </div>
+        <div>
+          <strong>관심 분야</strong>
+          <p>React, 프론트엔드 아키텍처, 디자인 시스템</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>기술 스택</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card"><strong>HTML5</strong><p>의미 있는 구조와 접근성을 고려한 마크업</p></div>
+          <div class="skill-card"><strong>CSS3</strong><p>반응형 레이아웃, 인터랙션, 컴포넌트 스타일링</p></div>
+          <div class="skill-card"><strong>JavaScript</strong><p>사용자 흐름을 만드는 클라이언트 로직</p></div>
+          <div class="skill-card"><strong>React</strong><p>재사용 가능한 UI와 상태 기반 화면 구성</p></div>
+          <div class="skill-card"><strong>Git</strong><p>협업을 위한 버전 관리와 기록 정리</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>프로젝트</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-tag">Portfolio</span>
+          <h3>포트폴리오 웹사이트</h3>
+          <p>반응형 레이아웃과 간결한 인터랙션을 적용해 개인 역량을 명확히 전달하는 웹사이트입니다.</p>
+        </article>
+        <article class="project-card">
+          <span class="project-tag">Corporate</span>
+          <h3>기업 소개 페이지</h3>
+          <p>브랜드 신뢰도를 높이는 블루톤 UI와 정보 중심 레이아웃으로 구성한 랜딩 페이지입니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>함께 만들고 싶은 웹 경험이 있다면 연락 주세요.</h2>
+        <p>프로젝트 방향을 함께 정리하고, 사용자가 편하게 느끼는 결과물로 구현하겠습니다.</p>
+        <a href="mailto:you@example.com" class="button">이메일 보내기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
